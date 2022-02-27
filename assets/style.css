@@ -5,19 +5,45 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: ghostwhite;
 }
+
 .header {
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
     color: gray;
+    
 }
 
 .header h1 {
     display: block;
-    font-size: 30px;
+    font-size: 40px;
+    -webkit-text-stroke: 1px lightslategray;
+}
+
+.header h1 .fn {
+    color: lightblue;
 }
 
 .header h1 .ln {
-    color: lavender;
+    color: plum;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgrey
 }

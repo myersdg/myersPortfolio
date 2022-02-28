@@ -14,6 +14,9 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: aliceblue;
     color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -38,6 +41,7 @@ body {
 .header div ul li {
     display: inline-block;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 a {
@@ -56,7 +60,46 @@ img {
 }
 
 .mePicture {
-    padding: 10px;
-    height: 300px;
-    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.mePicture img {
+    max-width: 300px;
+    height: auto;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.about div {
+    display: flex;
+    justify-content: center;
+}
+
+.projects h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.projects div {
+    display: flex;
+    justify-content: space-around
+}
+
+.music h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.music div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact div {
+    display: flex;
+    justify-content: space-around;
 }

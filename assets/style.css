@@ -46,5 +46,17 @@ a {
 }
 
 a:hover {
-    color: lightgrey
+    color: lightgrey;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.mePicture {
+    padding: 10px;
+    height: 300px;
+    width: 300px;
 }

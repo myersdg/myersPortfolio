@@ -54,7 +54,7 @@ a:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     object-fit: contain;
 }
@@ -69,6 +69,11 @@ img {
     height: auto;
 }
 
+.about {
+    margin: 25px;
+    background-color: antiquewhite;
+}
+
 .about h2 {
     display: flex;
     justify-content: center;
@@ -79,6 +84,11 @@ img {
     justify-content: center;
 }
 
+.projects {
+    margin: 25px;
+    background-color: azure;
+}
+
 .projects h2 {
     display: flex;
     justify-content: center;
@@ -87,6 +97,23 @@ img {
 .projects div {
     display: flex;
     justify-content: space-around
+}
+
+.refactor {
+    min-width: 150px;
+    height: auto;
+    flex-grow: 0
+}
+
+.portfolio {
+    min-width: 150px;
+    height: auto;
+    flex-grow: 0
+}
+
+.music {
+    margin: 25px;
+    background-color: beige;
 }
 
 .music h2 {
